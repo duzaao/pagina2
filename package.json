@@ -2,11 +2,14 @@
   "name": "portfolio-pessoal",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://duzaao.github.io/pagina2",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.3.5",
@@ -21,6 +24,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
     "sass": "^1.60.0",
     "vite": "^6.2.3"
   }
