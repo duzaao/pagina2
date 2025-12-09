@@ -11342,6 +11342,7 @@ const cp = () => {
               className: "home__title text-cs",
               children: [U.jsx("span", { children: "EDUARDO" }), " PACHECO"],
             }),
+            U.jsx("div", { style: { height: "1cm" } }),
             U.jsxs("p", {
               className: "home__job",
               children: [
