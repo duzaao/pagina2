@@ -9312,8 +9312,8 @@ const $d = [
     {
       id: 1,
       name: "TCC",
-      title: "TCC Proposal",
-      description: "Development of the proposal for the final year project.",
+      title: "TCC Poster",
+      description: "Poster for the final year project.",
     },
     {
       id: 2,
@@ -11405,7 +11405,7 @@ const cp = () => {
     }),
   gp = () => {
     const m = (d) => {
-      const f = ["proposta_tcc.pdf","tcc.pdf"];
+      const f = ["poster.pdf","tcc.pdf"];
       window.location.href = f[d % f.length];
     };
     return U.jsxs("section", {
