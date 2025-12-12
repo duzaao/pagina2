@@ -11403,7 +11403,7 @@ const cp = () => {
     }),
   gp = () => {
     const m = (d) => {
-      const f = ["proposta_tcc.pdf"];
+      const f = ["proposta_tcc.pdf","tcc.pdf"];
       window.location.href = f[d % f.length];
     };
     return U.jsxs("section", {
