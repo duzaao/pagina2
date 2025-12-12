@@ -11277,13 +11277,15 @@ const cp = () => {
                       className: "header__socials",
                       children: [
                         U.jsx("a", {
-                          href: "",
+                          href: "https://www.linkedin.com/in/eduardofpacheco/",
                           className: "header__social-link",
+                          target: "_blank",
                           children: U.jsx(uu, {}),
                         }),
                         U.jsx("a", {
-                          href: "",
+                          href: "https://github.com/duzaao/Tcc-MultiAgent",
                           className: "header__social-link",
+                          target: "_blank",
                           children: U.jsx(ou, {}),
                         }),
                       ],
@@ -11390,7 +11392,7 @@ const cp = () => {
                   children: U.jsx(uu, {}),
                 }),
                 U.jsx("a", {
-                  href: "https://github.com/duzaao",
+                  href: "https://github.com/duzaao/Tcc-MultiAgent",
                   className: "home__social-link",
                   target: "_blank",
                   children: U.jsx(ou, {}),
@@ -11459,7 +11461,7 @@ const cp = () => {
                 children: U.jsx(uu, {}),
               }),
               U.jsx("a", {
-                href: "https://github.com/duzaao",
+                href: "https://github.com/duzaao/Tcc-MultiAgent",
                 className: "footer__social-link",
                 target: "_blank",
                 children: U.jsx(ou, {}),
